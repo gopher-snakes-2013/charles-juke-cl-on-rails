@@ -1,1 +1,3 @@
-Something clever
+<% Post.all.each do |post| %>
+  <%= post.title %>
+<% end %>

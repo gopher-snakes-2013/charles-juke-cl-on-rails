@@ -1,6 +1,6 @@
 Craigslist::Application.routes.draw do
 
-  root :to => 'application#index'
+  root :to => 'posts#index'
 
   resources :posts
 
