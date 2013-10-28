@@ -1,0 +1,12 @@
+development:
+  adapter: postgresql
+  database: craigslist_dev
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: craigslist_test
+  host: localhost
+
+
+
