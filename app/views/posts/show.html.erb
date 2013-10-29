@@ -1,0 +1,8 @@
+<h1><%= @post.title %> </h1></br>
+<%= @post.body %>
+<br/>
+
+<%= link_to 'Destroy', @post, :method => :delete %>
+<%= link_to 'Edit', edit_post_path(@post) %>
+
+

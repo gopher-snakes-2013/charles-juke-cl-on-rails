@@ -1,3 +1,13 @@
-<% Post.all.each do |post| %>
-  <%= post.title %>
-<% end %>
+
+
+<div id='posts_list'>
+  <% Post.all.each do |post| %>
+    <%= link_to post.title, post %> </br>
+  <% end %>
+</div>
+
+</br></br>
+
+
+
+<%= link_to 'New Post', new_post_path %>
